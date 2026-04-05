@@ -14,6 +14,9 @@ function abrir() {
         document.getElementById("inicio").style.display = "block";
         document.getElementById("conteudo").style.display = "none";
     }
-
-
 }
+function trocarTema() {
+    document.body.classList.toggle("Temaazul");    
+    
+}  
+
